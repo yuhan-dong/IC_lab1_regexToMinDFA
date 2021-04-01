@@ -5,7 +5,7 @@
  */
 public class main {
     public static void main(String[] args) {
-        // (a|b)*abb a(b|c)*
+        // (a|b)*ab a(b|c)*
         String regexp = "a(b|c)*";
         toMinDFA minDFA = new toMinDFA(regexp);
     }
